@@ -5,7 +5,7 @@ The goal of this assignment is to examine granular website data stream logs, eva
 
 ## VISUAL DATA INSIGHTS
 ### 1. GA4 E-commerce Funnel: Conversion Performance & Friction Points
-![Funnel Dropoff Chart](funnel_dropoff_chart.png)
+![traffic analysis chart](traffic_analysis_chart.png)
 
 ## CORE ACTIONS TAKEN
 * **Data Stream Integration**: Formatted anonymized hit logs into structured tracking dimensions (`session_id`, `page_url`, `event_name`) to mimic live tag collection pipelines.
@@ -25,7 +25,7 @@ The goal of this assignment is to examine granular website data stream logs, eva
 * `dataset.csv`: Anonymized raw website event logs spreadsheet dataset.
 * `funnel_query.sql`: Structural SQL query file calculating event count aggregations.
 * `traffic_analysis.py`: Main Python event-filtering and visual-plotting engine script.
-* `funnel_dropoff_chart.png`: Visual conversion funnel path chart image asset.
+* `traffic_analysis_chart.png`: Visual conversion funnel path chart image asset.
 * `README.md`: Project documentation blueprint and status file.
 
 **Project Completed By:** HARINI P  
